@@ -25,7 +25,7 @@ SECRET_KEY = '$66b-y++-$x*hk+4%(w8g*dynta@qh0#4kq91d%be5l2j2rx8n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://asritha-airqualityindex.df.r.appspot.com']
 
 
 # Application definition
