@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indian Cities AQI</title>
+  </head>
+  <body>
+    <h2>Select a city from dropdown</h2>
+    <form method="post", action="{% url 'cityIndex' %}">{% csrf_token %}
+    <select name="Cities" required>
+      <option value="" disabled selected hidden>Choose a City</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Bengaluru">Bengaluru</option>
+      <option value="Ahmedabad">Ahmedabad</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Pune">Pune</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Kolkatta">Kolkatta</option>
+    </select>
+  <input type="submit" class="btn" value="Click" name="mybtn">
+    </form>
+  </body>
+</html>
