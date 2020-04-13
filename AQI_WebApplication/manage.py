@@ -4,7 +4,9 @@ import os
 import sys
 
 rootdir = os.path.dirname(os.path.abspath(__file__))
-lib = os.path.join(rootdir, 'lib')
+print(rootdir)
+lib = os.path.join(rootdir, 'venv/Lib/site-packages/')
+print(lib)
 sys.path.append(lib)
 
 

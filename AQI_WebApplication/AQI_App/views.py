@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from lib.bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import numpy
 import urllib.request as url
 
