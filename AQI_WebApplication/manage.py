@@ -3,7 +3,9 @@
 import os
 import sys
 
-sys.path.insert(0, 'Lib')
+rootdir = os.path.dirname(os.path.abspath(__file__))
+lib = os.path.join(rootdir, 'lib')
+sys.path.append(lib)
 
 
 def main():
