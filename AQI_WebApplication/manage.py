@@ -3,6 +3,8 @@
 import os
 import sys
 
+sys.path.insert(0, 'Lib')
+
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'AQI_WebApplication.settings')
